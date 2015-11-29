@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title></title>
+	<style type="text/css">
+	
+	</style>
+	<script type="text/javascript">
+	window.onload=function(){
+		var oDiv = document.querySelector('.box');
+		//var oDiv = document.querySelectorAll('.box');
+		oDiv.style.background = 'red';
+	}
+	</script>
+</head>
+<body>
+<div class="box" >1</div>
+<div class="box" >1</div>
+</html>
+<!--
+获取class列表属性
+classList
+	length:class的长度
+	add('className'):添加class
+	remove('className'):删除class
+	toggle('className'):切换class  //存在则删除，不存在则添加
+/////////////////////////
+	JSON的新方法
+	之前的 eval,可以解析任何字符串变成js
+	var str = 'function show(){alert(0);}';
+	eval(str);
+	show();
+	
+	parse() 只能解析json字符串,且json必须严格的加上引号
+	var str = '{"name":"name1"}';
+	var json = JSON.parse(str);
+	alert(json.name);
+	
+	
+
+
+
+-->
